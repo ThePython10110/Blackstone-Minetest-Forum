@@ -1,0 +1,188 @@
+@-moz-document regexp("https://www.ninsheetmusic.org(?!/forum).*") {
+body {
+    background-color: #333 !important;
+}
+
+#mainTitle span span, .linkList-link, .gameSort, .article-info author a {
+    color: #eee !important;
+}
+
+.gameSort a.current .svgArrow-arrow {
+    stroke: #eee !important;
+}
+
+.tableList-cell--sheetArranger {
+    color: #aaa !important;
+}
+
+#mainTitle span {
+    color: #f00 !important;
+    text-shadow: 2px 1px 0 #555, 3px 2px 0 rgba(0,0,0,.15) !important;
+}
+
+.article-body a, .breadcrumbs li a {
+    color: #f00 !important;
+}
+
+nav#navBar {
+    background: linear-gradient(210deg,#3330,#3333 25%,#3330 60%), linear-gradient(210deg,#444,#333 50%) !important
+}
+
+.contentBox, #mainSidebar section {
+    background-color: #333 !important;
+    color: #eee !important;
+}
+
+.navBar-subLink {
+     background-color: #333 !important;
+    color: #08f !important;
+}
+
+.navBar-subLink:hover {
+     background-color: #666 !important;
+    color: #e00 !important;
+}
+
+.heading--plainBlue h3.heading-text, .article-info, .article.news footer a, .backToTop-link, .navBar-link, .navBar-subList,
+.tableList-buttonCell--sheetPdf, .tableList-buttonCell--sheetMid, .tableList-buttonCell--sheetMus {
+    color: #08f !important;
+}
+
+.widgetList--stats dd.widgetList-cell {
+    color: #aaa !important;
+}
+
+hr.musicDivider {
+    filter: invert(1) !important;
+}
+
+.article.news footer {
+    background-color: #444 !important;
+}
+
+.article.news footer a:hover {
+    background-color: #666 !important;
+}
+}
+
+@-moz-document url-prefix("https://www.ninsheetmusic.org/forum") {
+body {
+    background-color: #333 !important;
+}
+
+h1.forumtitle a {
+    color: #f00 !important;
+}
+
+#smflogo {
+    filter: brightness(1.5) !important;
+}
+
+.dropmenu li ul, .top_menu, .dropmenu li li:hover, .button, .dropmenu li li:hover>a, .dropmenu li li a:focus, .dropmenu li li a:hover,
+#top_section, .quickbuttons>li, .quickbuttons li ul, .quickbuttons li ul li a:hover, .quickbuttons ul li a:focus, .inline_mod_check,
+.popup_window, #inner_section, .post_options ul, .post_options ul a:hover, .post_options ul a:focus, .notify_dropdown a:hover, .notify_dropdown a:focus {
+    background: #333;
+    background-image: linear-gradient(#334 0%,#333 70%)
+}
+
+select {
+    background: #333;
+}
+
+.action_home, strong, .button, h1, h2, h3, h4, h5, h6, select, body {
+    color: #eee !important
+}
+
+a, a:visited, a *, a:visited * {
+    color: #08f !important;
+}
+
+.dropmenu>li:hover>a, .dropmenu>li>a:focus, #top_info>li:hover>a, #top_info>li>a:focus, #top_info>li>a.open {
+    background: #334 !important
+}
+
+.dropmenu a.active, #top_info a.active {
+    text-shadow: none
+}
+
+.navigate_section ul, .popup_content, .up_contain, #content_section, .roundframe, .title_bar, .information, #month_grid th.days {
+    background: #333 !important;
+}
+
+.navigate_section ul li {
+    text-shadow: none;
+}
+
+.birthday {
+    color: #f0f
+}
+
+.windowbg:nth-of-type(odd), .bg.odd {
+    background: #444 !important
+}
+
+.windowbg:nth-of-type(even), .bg.even {
+    background: #333 !important
+}
+
+#footer, div.cat_bar {
+    background: #226;
+}
+
+.current_page, .popup_heading {
+    color: #fa0;
+}
+
+.generic_bar, .progress_bar {
+    background: #555;
+    color: #eee;
+    text-shadow: none
+}
+
+.generic_bar span, .progress_bar span {
+    text-shadow: none;   
+}
+
+.sp-wrap-default {
+    background: none repeat scroll 0% 0% #333;
+    background-color: #333;
+    color: #eee;
+}
+
+.sp-wrap-default .sp-head {
+    color: #eee;
+}
+
+.sp-wrap-default .sp-body {
+    background-color: #333;
+}
+
+.bbc_standard_quote {
+    background-color: #222;
+}
+
+.errorbox {
+    color: #222;
+}
+
+.popup_content {
+    background-color: #333;
+    color: #eee;
+}
+
+select:focus {
+    background-color: #333;
+}
+
+.button:hover, #search_form .button:hover, .quickbuttons li:hover {
+    background: #555;
+}
+
+#main_grid td.disabled, #month_grid td.disabled {
+    background: #272727;
+}
+
+div.sceditor-toolbar {
+    background: #333;
+}
+}
