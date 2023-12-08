@@ -1,4 +1,4 @@
-# Blackstone-Minetest-Forum
-Improved version of Obsidian Minetest Forum by GreenXenith
+# UserStyles
+Styles for a few websites.
 
 Install with the Stylus browser extension.
