@@ -1,3 +1,9 @@
+/* ==UserStyle==
+@name         Dark NinSheetMusic
+@version      1.0
+@namespace    ThePython10110
+==/UserStyle== */
+
 @-moz-document regexp("https://www.ninsheetmusic.org(?!/forum).*") {
 body {
     background-color: #333 !important;
